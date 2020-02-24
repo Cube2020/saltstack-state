@@ -1,3 +1,4 @@
+{%- set defaults = salt['pillar.get']('tomcat') -%}
 #1.安装openJdk-1.8.0
 jdk-install:
   pkg.installed:

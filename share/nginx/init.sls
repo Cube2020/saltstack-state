@@ -1,4 +1,4 @@
-%- set defaults = salt['pillar.get']('nginx') -%}
+{%- set defaults = salt['pillar.get']('nginx') -%}
 nginx:
   pkg:
     - installed

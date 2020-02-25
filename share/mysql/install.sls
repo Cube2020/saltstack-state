@@ -1,7 +1,7 @@
 include:
   - share.mysql.dependency
   - share.mysql.cmake
-nginx-source-install:
+mysql-install:
   file.managed:
    - name: /user/local/salt/mysql-boost-5.7.19.tar.gz
    - source: salt://source/mysql/mysql-boost-5.7.19.tar.gz

@@ -33,7 +33,7 @@ http {
     #gzip  on;
 
     server {
-        listen       {{ nginx:listen_port }};
+        listen       {{ nginx.listen_port }};
         server_name  localhost;
 
         #charset koi8-r;

@@ -16,6 +16,7 @@ tomcat-install:
     - unless: test -L /usr/local/tomcat && test -d /usr/local/apache-tomcat-9.0.31
     - require:
       - file: /usr/local/src/apache-tomcat-9.0.31.tar.gz
+tomcat-config:
   file.managed:
     - name: /usr/local/tomcat/conf/server.xml
     - source: salt://share/tomcat/server.xml.jinja

@@ -1,5 +1,4 @@
-%- set listen_port = vars.get(listen_port') -%}
-
+{% from "share/nginx/map.jinja" import nginx with context %}
 #user  nobody;
 worker_processes  1;
 
@@ -34,7 +33,7 @@ http {
     #gzip  on;
 
     server {
-        listen       {{ listen_port  }};
+        listen       {{ nginx:listen_port }};
         server_name  localhost;
 
         #charset koi8-r;

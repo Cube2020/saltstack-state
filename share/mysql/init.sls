@@ -14,9 +14,10 @@ include:
 
 mysql-service:
   service.running:
+    - name: mysql
     - enable: true
     - reload: true
-#    - require:
-#      - file: /etc/init.d/mysqld
+    - require:
+      - file: /etc/init.d/mysqld
 #    - watch:
 #      - file: /etc/my.cnf

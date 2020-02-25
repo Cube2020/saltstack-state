@@ -26,6 +26,4 @@ tomcat-config:
     - user: root
     - group: root
     - mode: 644
-    - require:
-      - file: /usr/local/apache-tomcat-9.0.31
 

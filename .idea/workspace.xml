@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f54e36f9-5a6d-4ced-af4e-9fb6a412f854" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/share/mysql/cmake.sls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/share/mysql/dependency.sls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/share/mysql/init.sls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/share/mysql/install.sls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/share/mysql/user/init.sls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/nginx/init.sls" beforeDir="false" afterPath="$PROJECT_DIR$/share/nginx/init.sls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/top.sls" beforeDir="false" afterPath="$PROJECT_DIR$/top.sls" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,18 +28,18 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="125" />
-          <entry key="PLAIN_TEXT" value="661" />
+          <entry key="PLAIN_TEXT" value="676" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/top.sls">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -111,17 +104,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/share/mysql/install.sls">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/share/mysql/init.sls">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+            <state relative-caret-position="153">
+              <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -166,7 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/top.sls" />
         <option value="$PROJECT_DIR$/share/nginx/conf.sls" />
         <option value="$PROJECT_DIR$/share/nginx/conf.jinja" />
         <option value="$PROJECT_DIR$/share/tomcat/server.xml.jinja" />
@@ -180,6 +172,7 @@
         <option value="$PROJECT_DIR$/share/mysql/cmake.sls" />
         <option value="$PROJECT_DIR$/share/mysql/service.sls" />
         <option value="$PROJECT_DIR$/share/mysql/init.sls" />
+        <option value="$PROJECT_DIR$/top.sls" />
       </list>
     </option>
   </component>
@@ -189,9 +182,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="115" />
-    <option name="y" value="30" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-105" />
+    <option name="y" value="126" />
     <option name="width" value="1920" />
     <option name="height" value="1032" />
   </component>
@@ -231,7 +224,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582621156031" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582623617112" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -262,15 +255,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582450222855</updated>
-      <workItem from="1582450227594" duration="29064000" />
+      <workItem from="1582450227594" duration="30331000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29064000" />
+    <option name="totallyTimeSpent" value="30331000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="77" y="20" width="1280" height="688" extended-state="0" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -278,7 +271,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25245902" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24939272" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -345,13 +338,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/top.sls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -383,17 +369,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/share/mysql/install.sls">
+    <entry file="file://$PROJECT_DIR$/share/mysql/init.sls">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+        <state relative-caret-position="153">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/share/mysql/init.sls">
+    <entry file="file://$PROJECT_DIR$/share/mysql/install.sls">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/top.sls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>

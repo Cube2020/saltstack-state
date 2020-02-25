@@ -11,9 +11,6 @@ tomcat-install:
     - user: root
     - group: root
     - mode: 755
-  cmd.run:
-    - name: cd /usr/local/src && tar zxf apache-tomcat-9.0.31.tar.gz && mv apache-tomcat-9.0.31 /usr/local/ && ln -s /usr/local/apache-tomcat-9.0.31 /usr/local/tomcat
-    - unless: test -L /usr/local/tomcat && test -d /usr/local/apache-tomcat-9.0.31
   file.managed:
     - name: /usr/local/tomcat/conf/server.xml
     - source: salt://share/tomcat/server.xml.jinja
@@ -23,3 +20,6 @@ tomcat-install:
     - user: root
     - group: root
     - mode: 644
+  cmd.run:
+    - name: cd /usr/local/src && tar zxf apache-tomcat-9.0.31.tar.gz && mv apache-tomcat-9.0.31 /usr/local/ && ln -s /usr/local/apache-tomcat-9.0.31 /usr/local/tomcat
+    - unless: test -L /usr/local/tomcat && test -d /usr/local/apache-tomcat-9.0.31

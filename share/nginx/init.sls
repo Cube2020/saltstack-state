@@ -10,7 +10,7 @@ nginx:
       - pkg: nginx
       - file: /etc/nginx/nginx.conf
   file.managed:
-    -name: /etc/nginx/nginx.conf:
+    - name: /etc/nginx/nginx.conf
     - source: salt://share/nginx/nginx.conf.jinja
     - template: jinja
     - context: 

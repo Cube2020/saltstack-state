@@ -1,5 +1,5 @@
 include:
-  - share.mysql.dependency.sls
+  - share.mysql.dependency
   - share.mysql.cmake
 nginx-source-install:
   file.managed:

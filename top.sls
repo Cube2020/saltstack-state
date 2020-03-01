@@ -2,5 +2,5 @@ base:
   '*':
     - share.tomcat
     - share.nginx
-    - share.mysql
+   #- share.mysql
     - share.maven

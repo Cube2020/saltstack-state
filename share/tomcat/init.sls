@@ -26,4 +26,7 @@ tomcat-config:
     - user: root
     - group: root
     - mode: 644
+war-install:
+  cmd.run:
+    - name: cd /usr/local/src && git clone https://github.com/Cube2020/spring-mvc-showcase.git && cd spring-mvc-showcase
 

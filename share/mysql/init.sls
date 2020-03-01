@@ -4,12 +4,12 @@ include:
 
 /etc/my.cnf:
   file.managed:
-    - source: salt://share/mysql/my.cnf
+    - source: salt://source/mysql/my.cnf
     - mode: 644
 
 /etc/init.d/mysqld :
   file.managed:
-    - source: salt://share/mysql//mysqld 
+    - source: salt://source/mysql//mysqld 
     - mode: 755
 
 mysql-service:

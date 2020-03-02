@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f54e36f9-5a6d-4ced-af4e-9fb6a412f854" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/service/springmvc-showcase/init.sls" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/mysql/cmake.sls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/mysql/dependency.sls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/mysql/init.sls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/mysql/install.sls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/mysql/user/init.sls" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/tomcat/init.sls" beforeDir="false" afterPath="$PROJECT_DIR$/share/tomcat/init.sls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/top.sls" beforeDir="false" afterPath="$PROJECT_DIR$/top.sls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/springmvc-showcase/init.sls" beforeDir="false" afterPath="$PROJECT_DIR$/service/springmvc-showcase/init.sls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/tomcat/server.xml.jinja" beforeDir="false" afterPath="$PROJECT_DIR$/share/tomcat/server.xml.jinja" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,12 +17,12 @@
     <session id="227855440">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.3" value="2" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -40,27 +34,27 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="125" />
-          <entry key="PLAIN_TEXT" value="1049" />
+          <entry key="PLAIN_TEXT" value="1136" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/share/tomcat/init.sls">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
+            <state relative-caret-position="459">
               <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/service/springmvc-showcase/init.sls">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+            <state relative-caret-position="136">
+              <caret line="8" column="79" selection-start-line="8" selection-start-column="79" selection-end-line="8" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -85,11 +79,7 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/share/tomcat/server.xml.jinja">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -126,7 +116,6 @@
       <list>
         <option value="$PROJECT_DIR$/share/nginx/conf.sls" />
         <option value="$PROJECT_DIR$/share/nginx/conf.jinja" />
-        <option value="$PROJECT_DIR$/share/tomcat/server.xml.jinja" />
         <option value="$PROJECT_DIR$/share/nginx/map.jinja" />
         <option value="$PROJECT_DIR$/share/nginx/nginx.conf.jinja" />
         <option value="$PROJECT_DIR$/share/nginx/init.sls" />
@@ -139,8 +128,9 @@
         <option value="$PROJECT_DIR$/share/maven/init.sls" />
         <option value="$PROJECT_DIR$/share/mysql/init.sls" />
         <option value="$PROJECT_DIR$/top.sls" />
-        <option value="$PROJECT_DIR$/service/springmvc-showcase/init.sls" />
         <option value="$PROJECT_DIR$/share/tomcat/init.sls" />
+        <option value="$PROJECT_DIR$/share/tomcat/server.xml.jinja" />
+        <option value="$PROJECT_DIR$/service/springmvc-showcase/init.sls" />
       </list>
     </option>
   </component>
@@ -162,6 +152,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -200,17 +192,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583120567398" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583133127544" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../eb-forks/atlas-salt-state" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -245,18 +235,19 @@
       <workItem from="1582868441303" duration="7016000" />
       <workItem from="1582977512747" duration="3852000" />
       <workItem from="1583115198820" duration="3197000" />
-      <workItem from="1583125572233" duration="191000" />
+      <workItem from="1583125572233" duration="1006000" />
+      <workItem from="1583129531108" duration="1395000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54157000" />
+    <option name="totallyTimeSpent" value="56367000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21214575" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.21538462" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -329,6 +320,13 @@
     <entry file="file://$PROJECT_DIR$/share/mysql/user/init.sls" />
     <entry file="file://$PROJECT_DIR$/share/mysql/cmake.sls" />
     <entry file="file://$PROJECT_DIR$/share/mysql/dependency.sls" />
+    <entry file="file://$PROJECT_DIR$/share/tomcat/init.sls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/share/maven/init.sls">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -343,24 +341,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/share/tomcat/server.xml.jinja">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/service/springmvc-showcase/init.sls">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/share/tomcat/server.xml.jinja">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/share/tomcat/init.sls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+        <state relative-caret-position="136">
+          <caret line="8" column="79" selection-start-line="8" selection-start-column="79" selection-end-line="8" selection-end-column="79" />
         </state>
       </provider>
     </entry>

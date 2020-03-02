@@ -51,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/service/springmvc-showcase/init.sls">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+            <state relative-caret-position="119">
+              <caret line="7" column="158" selection-start-line="7" selection-start-column="158" selection-end-line="7" selection-end-column="158" />
             </state>
           </provider>
         </entry>
@@ -196,7 +196,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583135283131" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583136559519" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../eb-forks/atlas-salt-state" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -234,12 +234,12 @@
       <workItem from="1582977512747" duration="3852000" />
       <workItem from="1583115198820" duration="3197000" />
       <workItem from="1583125572233" duration="1006000" />
-      <workItem from="1583129531108" duration="2914000" />
+      <workItem from="1583129531108" duration="4225000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57886000" />
+    <option name="totallyTimeSpent" value="59197000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -344,8 +344,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/service/springmvc-showcase/init.sls">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        <state relative-caret-position="119">
+          <caret line="7" column="158" selection-start-line="7" selection-start-column="158" selection-end-line="7" selection-end-column="158" />
         </state>
       </provider>
     </entry>

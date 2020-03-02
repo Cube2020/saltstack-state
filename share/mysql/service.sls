@@ -1,6 +1,6 @@
 include:
   - share.mysql.install
-  - share.user.mysql
+  - share.mysql.user.mysql
 
 /etc/my.cnf:
   file.managed:

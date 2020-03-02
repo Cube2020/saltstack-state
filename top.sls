@@ -4,3 +4,4 @@ base:
     - share.nginx
     - share.maven
     - service.springmvc-showcase
+    - share.mysql

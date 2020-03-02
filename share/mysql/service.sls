@@ -7,14 +7,14 @@ include:
     - source: salt://source/mysql/my.cnf
     - mode: 644
 
-/etc/init.d/mysqld :
+/etc/init.d/mysqld:
   file.managed:
-    - source: salt://source/mysql/mysqld 
+    - source: salt://source/mysql/mysqld
     - mode: 755
 
 mysql-service:
   service.running:
-    - name: mysql
+    - name: mysqld
     - enable: true
     - reload: true
     - require:

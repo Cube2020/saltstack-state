@@ -1,0 +1,3 @@
+{% set nginx = salt['grains.filter_by']({
+    'roles': 'memcache'
+}, merge=salt['pillar.get']('nginx')) %}

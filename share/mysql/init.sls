@@ -6,10 +6,10 @@ mysql-install:
     - name: mysql-server
 mysql-chown:
   cmd.run:
-    - name: chown mysql:mysql -R /var/lib/mysql && mysqld --initialize
+    - name: chown root:root -R /var/lib/mysql && mysqld --initialize --user=root
 mysql-start:
   service.running:
     - name: mysqld
-    - enabled: true
+    - enable: true
     - reload: true
     
